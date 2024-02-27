@@ -8,11 +8,16 @@
     height: 50px;
   }
 
+.navbar-brand {
+  padding: 10px;
+}
+
 .longlogo {
-    position: fixed;
-    vertical-align: middle;
     margin-left: 500px;
-    margin-right: auto;
+}
+
+.smalllogo {
+  margin-left: 10px;
 }
 
 .navbar ul {
@@ -23,15 +28,12 @@
     line-height: 80px;   
 }
 
-.content {
-    padding: 80px;
-    
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    margin: 30px;
   }
 
-#inputUsername {
-  border-radius: 0;
-}
-
-#inputEmail {
-  border-radius: 0;
+form {
+  Padding: 30px
 }
