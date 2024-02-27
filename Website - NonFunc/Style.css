@@ -1,0 +1,28 @@
+.navbar {
+    overflow: hidden;
+    background-color: #D3CCE8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 5px;
+    height: 2px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.navbar ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
+}
+
+.active {
+    background-color: #04AA6D;
+  }
