@@ -1,21 +1,17 @@
-body {
-    margin-right: 50%
-}
-
 
 .navbar {
-    overflow: auto;
+    overflow: hidden;
     background-color: #D3CCE8;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 120%;
     height: 50px;
   }
 
 .longlogo {
     position: fixed;
     vertical-align: middle;
-    margin-left: 550px;
+    margin-left: 500px;
     margin-right: auto;
 }
 
@@ -23,10 +19,19 @@ body {
     display: inline-block;
     vertical-align: top;
     margin-right: 20px;
-    height: 80px;        /* if you want it to take the full height of the bar */
-    line-height: 80px;    /* if you want it vertically middle of the navbar */
+    height: 80px;
+    line-height: 80px;   
 }
 
-.active {
-    background-color: #D3CCE8;
+.content {
+    padding: 80px;
+    
   }
+
+#inputUsername {
+  border-radius: 0;
+}
+
+#inputEmail {
+  border-radius: 0;
+}
