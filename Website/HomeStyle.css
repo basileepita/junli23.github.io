@@ -43,10 +43,10 @@
   content: '';
   height: 3px;
   width: 0;
-  background: #009688;
+  background: #BE152C;
   position: absolute;
-  left: 0;
-  bottom: 20px;
+  left: 50%;
+  bottom: 9%;
   transform:translateX(-50%);
   transition: 0.5s;
 }
@@ -81,11 +81,16 @@
   width: 25%;
   height: 60%;
   background-color: #7452AC;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  transition: transform 0.5s;
 }
 .card1 .s_card1 h3{
   margin: 5%;
   color: #fff;
   text-align: center;
+}
+.card1 .s_card1:hover{
+  transform: translateY(-10px);
 }
 
 
@@ -97,11 +102,16 @@
   width: 25%;
   height: 60%;
   background-color: #7452AC;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  transition: transform 0.5s;
 }
 .card1 .s_card2 h3{
   margin: 5%;
   color: #fff;
   text-align: center;
+}
+.card1 .s_card2:hover{
+  transform: translateY(-10px);
 }
 
 
@@ -115,11 +125,16 @@
   width: 25%;
   height: 60%;
   background-color: #7452AC;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  transition: transform 0.5s;
 }
 .card1 .s_card3 h3{
   margin: 5%;
   color: #fff;
   text-align: center;
+}
+.card1 .s_card3:hover{
+  transform:  translateY(-10px);
 }
 
 .card2{
@@ -139,12 +154,17 @@
   text-align: center;
   color: #fff;
 }
+.card2 .heartlock{
+  height: 65%;
+  width: 50%;
+  margin-left: 25%;
+  color: #BE152C;
+}
 .card2 h1{
   margin-right: 9%;
-  position: relative;
+  margin-top: 0;
   text-align: center;
   color: #fff;
-  margin-top: 40%;
   text-transform: uppercase;
 }
 
