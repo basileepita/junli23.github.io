@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-Name: Live Preview
-Id: ms-vscode.live-server
-Description: Hosts a local server in your workspace for you to preview your webpages on.
-Version: 0.4.13
-Publisher: Microsoft
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server
+
 
 <head>
 
@@ -44,7 +39,7 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-vsco
                 <div class="mb-3">
                     <button type="submit" class="btn btn-primary">Save Changes</button>
                 </div>
-                
+
             </form>
 
 
@@ -53,18 +48,15 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-vsco
                 <div class="mb-3">
                     <label for="existingPictures" class="form-label">Existing Pictures</label>
                     <div id="existingPictures" class="d-flex">
-                        <!-- Les images doivent être récupérées et insérées ici par le serveur -->
-                        <!-- Exemple d'image récupérée (remplacer 'path_to_image' par le chemin réel) -->
                         <img src="path_to_image/profile_pic_1.jpg" class="img-thumbnail" alt="Profile Picture 1" width="150">
                         <img src="path_to_image/profile_pic_2.jpg" class="img-thumbnail" alt="Profile Picture 2" width="150">
-                        <!-- Ajouter plus d'images si nécessaire -->
                     </div>
                 </div>
 
                 <!-- Profile picture upload -->
                 <div class="mb-3">
                     <label for="profilePicture" class="form-label">Upload New Profile Picture</label>
-                    <input type="file" class="form-control" id="profilePicture">
+                    <input type="file" class="form-control" id="profilePicture "required>
                 </div>
 
                 <!-- Bio field -->
@@ -82,7 +74,7 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-vsco
                 <!-- Age preference range -->
                 <div class="mb-3">
                     <label for="ageRange" class="form-label">Preferred Age Range</label>
-                    <input type="text" class="form-control" id="ageRange" placeholder="e.g. 25-35" required>
+                    <input type="text" class="form-control" id="ageRange" placeholder="e.g. 25-35">
                 </div>
 
                 <!-- Gender preference -->
