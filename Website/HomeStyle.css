@@ -140,6 +140,7 @@
   color: #fff;
 }
 .card2 h1{
+  margin-right: 9%;
   position: relative;
   text-align: center;
   color: #fff;
@@ -155,15 +156,20 @@
   display: inline-block;
   margin: 55px 10%;
   width: 80%;
-  height: 50%;
+  height: 70%;
   position: absolute;
   background-color: #8C75B3;
 }
 
-.card3 p{
+.card3 h2{
   color: #fff;
+  width: 50%;
 }
 
 .card3 .picture4{
-  margin-left: 5%;
+  margin-left: 60%;
+  margin-top: -24%;
+  height: 100%;
+  width: 35%;
+  border-radius: 15px;
 }
