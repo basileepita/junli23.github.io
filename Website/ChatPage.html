@@ -15,11 +15,23 @@
         }
 
         .chatbox {
-            width: 300px;
+            position: relative;
+            width: 500px;
             padding: 20px;
-            background-color: #ffc0cb;
+            background-color: #e6ccff; /* Mauve clair */
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            direction: ltr; /* Aligner le texte de gauche à droite */
+        }
+
+        .message-bubble {
+            background-color: #ffc0cb; /* Rose clair */
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 10px;
+            word-wrap: break-word; /* Permet le retour à la ligne si le texte est trop long */
+            display: table; /* Afficher chaque bulle en tant que table pour s'adapter à la longueur du texte */
+            width: auto;
         }
 
         #messages {
@@ -44,7 +56,7 @@
 
         #sendMessageBtn {
             padding: 8px 15px;
-            background-color: #4caf50;
+            background-color: #800080; /* Violet */
             color: white;
             border: none;
             border-radius: 5px;
@@ -69,6 +81,7 @@
 
         if (messageInput.value.trim() !== '') {
             var message = document.createElement('div');
+            message.className = 'message-bubble';
             message.textContent = messageInput.value;
             messagesContainer.appendChild(message);
             messageInput.value = '';
